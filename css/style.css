@@ -91,12 +91,39 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
-    width: 100%;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Funity-diversity-capturing-inclusive-spaces_85952-1926.jpg&f=1&nofb=1&ipt=20832d2fbc45a40cb608dfd9051119d3860fdbf22ddee1dbb8de88f30482f8db"); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Funity-diversity-capturing-inclusive-spaces_85952-1926.jpg&f=1&nofb=1&ipt=20832d2fbc45a40cb608dfd9051119d3860fdbf22ddee1dbb8de88f30482f8db");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ✅ Add this overlay for transparency */
+#hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* White overlay with 50% transparency */
+  z-index: 1;
+}
+
+/* ✅ Make sure your hero text stays above the overlay */
+#hero h1,
+#hero p,
+#hero a {
+  position: relative;
+  z-index: 2;
 }
 
 #cover-text {
