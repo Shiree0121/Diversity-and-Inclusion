@@ -120,7 +120,7 @@ body {
   position: relative;
   display: grid;
   place-items: center;
-  color: #fff;
+  color: #448751;
   overflow: hidden;
 }
 #hero::after {
@@ -278,7 +278,7 @@ body {
 #About .card-title {
   font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
-  color: #252525;
+  color: #448751;
   margin-bottom: 12px;
 }
 
