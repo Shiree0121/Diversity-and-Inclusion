@@ -218,3 +218,55 @@ body {
   line-height:1.2;
   margin-top: 8px;
 }
+
+/* === About Section Cards Styling === */
+
+#about .card {
+  background-color: #fffbf3;
+  border: 1px solid rgba(68, 135, 81, 0.2); /* light green border */
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 25px;
+}
+
+#about .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(68, 135, 81, 0.25);
+  border-color: rgba(68, 135, 81, 0.4);
+}
+
+#about .card-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+#about .card-text {
+  color: #3a3a3a;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#about .card a.btn {
+  background-color: #448751;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#about .card a.btn:hover {
+  background-color: #33663d;
+}
+.card-img-top{
+  height: 170px;
+  width: auto;
+
+}
