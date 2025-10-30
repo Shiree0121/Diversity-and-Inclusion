@@ -41,7 +41,7 @@ AI tools — particularly **GitHub Copilot** and **ChatGPT** — were used strat
 
 ### **Branding & Logo Creation**
 - Copilot provided helpful code suggestions for structuring the site’s **branding section** and integrating a **custom logo**.
-- It assisted in refining the placement and alignment of the logo within the navigation bar, maintaining accessibility and visual balance.
+)- It assisted in refining the placement and alignment of the logo within the navigation bar, maintaining accessibility and visual balance.
 ![alt text](images/inclusivespacelogo.png)![alt text](images/inclusivespace.jpeg)
 ### **Code Corrections & Readability**
 - AI tools suggested **cleaner code syntax**, helping to correct small errors that affected functionality.
@@ -60,6 +60,10 @@ to verify the website’s responsiveness and appearance across multiple devices.
 - Verified that all navigation and content sections displayed correctly and consistently.
 - Confirmed that there were **no major layout shifts or visibility issues** across devices.
 
+Also checked my accesability did got 88% but used this as a learning curb on how I can improve my project next time
+![alt text](<Screenshot 2025-10-30 at 20.05.03-1.png>)
+
+https://accessibilitycheck.friendlycaptcha.com/
 ---
 
 ## 🧩 Tools, Frameworks, and External Resources
