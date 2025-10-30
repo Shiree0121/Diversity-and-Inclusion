@@ -221,8 +221,8 @@ body {
 
 /* === About Section Cards Styling === */
 
-#about .card {
-  background-color: #fffbf3;
+ .random {
+  background-color: #e40d0d;
   border: 1px solid rgba(68, 135, 81, 0.2); /* light green border */
   border-radius: 8px;
   padding: 18px;
